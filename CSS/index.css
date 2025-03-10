@@ -6,11 +6,6 @@ header {
   padding: 10px 20px;
   align-items: center;
 }
-h1{
-  font-family: "Press Start 2P", serif;
-  color: #c4037a;
-  text-shadow: 4px 4px 0px black;
-}
 a {
   display: inline-flex;
   align-items: center;
@@ -40,6 +35,11 @@ a::before {
   transition: transform 100ms linear, opacity 200ms ease-in-out;
 }
 
-#button:hover{
+#button:hover {
   transform: scale(1.08);
+}
+h2 {
+  font-family: "Press Start 2P", serif;
+  color: #ffff;
+  text-shadow: 4px 4px 0px black;
 }
