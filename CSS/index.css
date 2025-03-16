@@ -6,7 +6,7 @@ header {
   padding: 10px 20px;
   align-items: center;
 }
-a {
+.header {
   display: inline-flex;
   align-items: center;
   color: #ffff;
@@ -38,8 +38,18 @@ a::before {
 #button:hover {
   transform: scale(1.08);
 }
-h2 {
-  font-family: "Press Start 2P", serif;
+.box-text{
+  display: flex;
+}
+.box-button{
+  align-items: center;
   color: #ffff;
-  text-shadow: 4px 4px 0px black;
+  font-size: 20px;
+  font-family: "Fira Code";
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+  background-color: #c4037a;
+  padding: 18px 20px;
+  box-shadow: 4px 4px 0px black;
 }
