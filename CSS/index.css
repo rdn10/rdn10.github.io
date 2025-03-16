@@ -38,9 +38,6 @@ a::before {
 #button:hover {
   transform: scale(1.08);
 }
-.box-text{
-  display: flex;
-}
 .box-button{
   align-items: center;
   color: #ffff;
