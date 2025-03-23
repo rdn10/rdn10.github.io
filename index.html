@@ -6,19 +6,17 @@
     <title>RDN10</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./CSS/reset.css" />
     <link rel="stylesheet" href="./CSS/index.css" />
     <link rel="stylesheet" href="./CSS/components/header.css" />
     <link rel="stylesheet" href="./CSS/components/banner.css" />
-    <link rel="stylesheet" href="./CSS/components/progress-bar.css">
-    <link rel="stylesheet" href="./CSS/components/skill.css">
-    <link rel="stylesheet" href="./CSS/components/wrapper-skill.css">
-    <link rel="stylesheet" href="./CSS/components/skill-tec.css">
-    <link rel="stylesheet" href="./CSS/components/card-project.css">
+    <link rel="stylesheet" href="./CSS/components/progress-bar.css" />
+    <link rel="stylesheet" href="./CSS/components/skill.css" />
+    <link rel="stylesheet" href="./CSS/components/wrapper-card.css">
+    <link rel="stylesheet" href="./CSS/components/wrapper-skill.css" />
+    <link rel="stylesheet" href="./CSS/components/skill-tec.css" />
+    <link rel="stylesheet" href="./CSS/components/card-project.css" />
     <link rel="stylesheet" href="./CSS/components/button.css" />
     <link rel="stylesheet" href="./CSS/components/main-title.css" />
     <link rel="stylesheet" href="./CSS/components/subtitle.css" />
@@ -53,28 +51,44 @@
         <h2 class="main-title -second">Skills</h2>
         <div class="wrapper-skill">
           <article class="skill-tec -space">
-            <img class="icon" src="./img/ico_html5.png" alt="Logo do HTML5 em pixel art" />
+            <img
+              class="icon"
+              src="./img/ico_html5.png"
+              alt="Logo do HTML5 em pixel art"
+            />
             <div class="right">
               <h3 class="title">HTML</h3>
               <progress class="progress-bar" max="100" value="40">40%</progress>
             </div>
           </article>
           <article class="skill-tec">
-            <img class="icon" src="./img/ico_css3.png" alt="Logo do css em pixel art" />
+            <img
+              class="icon"
+              src="./img/ico_css3.png"
+              alt="Logo do css em pixel art"
+            />
             <div class="right">
               <h3 class="title">CSS</h3>
               <progress class="progress-bar" max="100" value="40">40%</progress>
             </div>
           </article>
           <article class="skill-tec -space">
-            <img class="icon" src="./img/ico_js.png" alt="Logo do js em pixel art" />
+            <img
+              class="icon"
+              src="./img/ico_js.png"
+              alt="Logo do js em pixel art"
+            />
             <div class="right">
               <h3 class="title">JavaScript</h3>
               <progress class="progress-bar" max="100" value="40">40%</progress>
             </div>
           </article>
           <article class="skill-tec">
-            <img class="icon" src="./img/ico_react.png" alt="Logo do REACT em pixel art" />
+            <img
+              class="icon"
+              src="./img/ico_react.png"
+              alt="Logo do REACT em pixel art"
+            />
             <div class="right">
               <h3 class="title">REACT</h3>
               <progress class="progress-bar" max="100" value="40">40%</progress>
@@ -84,15 +98,17 @@
       </section>
       <section class="skill -bgBlack">
         <h2 class="main-title -second">Projetos</h2>
-        <figure class="card-project">
-          <img class="Logo" src="./img/firedlabs.png" alt="">
-        </figure>
-        <figure class="card-project -green">
-          <img class="Logo" src="./img/collabcode.png" alt="">
-        </figure>
-        <figure class="card-project">
-          <img class="Logo" src="./img/portfolio.png" alt="">
-        </figure>
+        <div class="wrapper-card">
+          <figure class="card-project">
+            <img class="Logo" src="./img/firedlabs.png" alt="" />
+          </figure>
+          <figure class="card-project -green">
+            <img class="Logo" src="./img/collabcode.png" alt="" />
+          </figure>
+          <figure class="card-project">
+            <img class="Logo" src="./img/portfolio.png" alt="" />
+          </figure>
+        </div>
       </section>
     </main>
   </body>
