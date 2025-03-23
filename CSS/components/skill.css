@@ -11,3 +11,7 @@
 .skill .main-title{
     margin-bottom: 60px;
 }
+
+.skill.-bgBlack{
+    background-color: black;
+}
