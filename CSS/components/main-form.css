@@ -1,5 +1,12 @@
 .main-form{
+    background-color:#1A936F ;
+    border-bottom: 10px solid #114B5F ;
+}
+.main-form{
    padding: 50px 40px;
+}
+.main-form .main-title{
+    margin-bottom: 20px;
 }
 .main-form .main-input{
     margin-bottom: 20px
