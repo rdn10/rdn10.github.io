@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="/CSS/components/main-footer.css" />
     <link rel="stylesheet" href="/CSS/components/main-input.css" />
     <link rel="stylesheet" href="/CSS/components/main-label.css">
+    <link rel="stylesheet" href="/CSS/components/main-form.css">
   </head>
   <body>
     <header class="header">
@@ -142,8 +143,7 @@
         <!-- <button class="button-arrow -right"><span class="content">Voltar</span></button>
         <button class="button-arrow -left"><span class="content">Avançar</span></button> -->
       </section>
-      <section>
-        <form action="">
+        <form class="main-form">
           <label class="main-label" for="name">Nome</label>
           <input class="main-input" type="text"  id="name">
 
@@ -151,11 +151,10 @@
           <input class="main-input" type="email" id="email">
 
           <label class="main-label" for="message">Mensagem</label>
-          <textarea class="main-input" id="message"></textarea>
+          <textarea class="main-input -textarea" id="message"></textarea>
 
-          <button type="submit">Enviar</button>
+          <button class="button -full" type="submit">Enviar</button>
         </form>
-      </section>
     </main>
     <footer class="main-footer">
       <a class="action" href="#" target="_blank ">
