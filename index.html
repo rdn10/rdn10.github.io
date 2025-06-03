@@ -27,7 +27,9 @@
     <link rel="stylesheet" href="./CSS/components/main-action.css" />
     <link rel="stylesheet" href="/CSS/components/main-section.css" />
     <link rel="stylesheet" href="/CSS/components/buttom-arrow.css" />
-    <link rel="stylesheet" href="/CSS/components/main-footer.css">
+    <link rel="stylesheet" href="/CSS/components/main-footer.css" />
+    <link rel="stylesheet" href="/CSS/components/main-input.css" />
+    <link rel="stylesheet" href="/CSS/components/main-label.css">
   </head>
   <body>
     <header class="header">
@@ -122,7 +124,7 @@
           </a>
         </div>
       </section>
-      <section class="main-section -bdSecond">
+      <section class="main-section -bdBlack">
         <h1 class="main-title -second">Sobre</h1>
         <div>
           <p class="description">
@@ -140,16 +142,30 @@
         <!-- <button class="button-arrow -right"><span class="content">Voltar</span></button>
         <button class="button-arrow -left"><span class="content">Avançar</span></button> -->
       </section>
+      <section class="main-input">
+        <form action="">
+          <label class="main-label" for="name">Nome</label>
+          <input type="text"  id="name">
+
+          <label class="main-label" for="email">Email</label>
+          <input type="email" id="email">
+
+          <label class="main-label" for="message">Mensagem</label>
+          <textarea id="message"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
     <footer class="main-footer">
       <a class="action" href="#" target="_blank ">
-        <img src="/img/icon-twitter.png" alt="" >
+        <img src="/img/icon-twitter.png" alt="" />
       </a>
       <a class="action" href="#" target="_blank ">
-        <img src="/img/icon-discord.png" alt="" >
+        <img src="/img/icon-discord.png" alt="" />
       </a>
       <a class="action" href="#" target="_blank ">
-        <img src="/img/icon-youtube.png " alt="" >
+        <img src="/img/icon-youtube.png " alt="" />
       </a>
     </footer>
   </body>
