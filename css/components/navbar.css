@@ -12,7 +12,7 @@
     top: 0;
     background: rgba(15, 23, 42, 0.8);
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
     padding: 1.5rem ;
 }
 .navbar-list{
@@ -30,15 +30,13 @@ padding: 0.5rem ;
 }
 /* after */
 .navbar-link::after{
-content: '';
+content: "";
+height: 2px;
+width: 0;
 position: absolute;
 bottom: 0;
-left: 50%;
-transform: translateX(-50%);
-width: 0;
-height: 2px;
-background-color: var(--primaria);
-transition: width 0.3s ease-in-out;
+left: 0;
+background: linear-gradient(90deg, var(--primaria), var(--secundaria));
 }
 .navbar-link:hover::after{
 width: 100%;

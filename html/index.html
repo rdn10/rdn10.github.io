@@ -9,20 +9,26 @@
     <link rel="stylesheet" href="/css/components/sobre.css" />
     <link rel="stylesheet" href="/css/components/projetos.css" />
     <link rel="stylesheet" href="/css/components/contatos.css" />
+    <link rel="stylesheet" href="/css/components/particulas.css" />
     <title>Ruan Dias</title>
   </head>
 
   <body>
+    <div class="background-efeito">
+      <span></span>
+      <span></span>
+    </div>
+
     <nav class="navbar">
       <ul class="navbar-list">
         <li>
-          <a class="navbar-link" href="#Inicío">Inicío</a>
+          <a class="navbar-link" href="#inicio">Inicío</a>
         </li>
         <li>
           <a class="navbar-link" href="#sobre">Sobre</a>
         </li>
         <li>
-          <a class="navbar-link" href="#Projetos">Projetos</a>
+          <a class="navbar-link" href="#projetos">Projetos</a>
         </li>
         <li>
           <a class="navbar-link" href="#contatos">Contatos</a>
@@ -95,18 +101,30 @@
     </section>
 
     <section id="contatos" class="contatos">
-      <h2 class="contatos-titulo">contatos</h2>
-      <form action="" class="formulario-contato" id="fomulario">
-        <div class="gurpo-form">
-          <input placeholder="Nome" class="campo-form" />
+      <h2 class="contatos-titulo">Entre em Contato</h2>
+      <form
+        action=""
+        class="formulario-contato"
+        id="fomulario"
+        onsubmit="enviarWhats(event)"
+      >
+        <div class="grupo-form">
+          <input placeholder="Nome" class="campo-form" id="nome" />
         </div>
-        <div class="gurpo-form">
+        <div class="grupo-form">
           <textarea
-            class="text-form"
+            class="campo-form"
             placeholder="Digite sua Mensagem"
+            rows="4"
+            id="mensagem"
           ></textarea>
         </div>
+        <button type="submit" class="botao-form">
+          Enviar Mensagem pelo WhatsApp
+        </button>
       </form>
     </section>
+
+    <script src="/script/script.js"></script>
   </body>
 </html>
